@@ -93,9 +93,9 @@ authors:
  - name: Kusti Skytén  # 1 commits, issues: opened 4 participated in 1
    orcid: 0000-0001-7460-1157
    affiliation: 8
-# - name: Dorota Jarecka  # 0 commits, issues: opened 5 participated in 1
-#   orcid: 
-#   affiliation:  # add full names if not yet listed, or indexes if already are
+ - name: Dorota Jarecka  # 0 commits, issues: opened 5 participated in 1
+   orcid: 0000-0001-8282-2988
+   affiliation: 10
 # - name: David Kennedy  # 0 commits, issues: opened 4 participated in 1
 #   orcid: 
 #   affiliation:  # add full names if not yet listed, or indexes if already are
@@ -147,6 +147,8 @@ affiliations:
    index: 8
  - name: Stanford University, Stanford, CA, United States
    index: 9
+ - name: Massachusetts Institute of Technology, Cambridge, MA, United States
+   index: 10
 date: 24 March 2021
 bibliography: paper.bib
 
