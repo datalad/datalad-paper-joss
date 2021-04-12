@@ -37,7 +37,7 @@ authors:
 #   affiliation:  # add full names if not yet listed, or indexes if already are
  - name: Dorian Pustina  # 0 commits, issues: opened 30 participated in 5
    orcid: 0000-0002-2834-7220
-   affiliation:  CHDI Management/CHDI Foundation, Princeton, NJ, USA
+   affiliation: 6
  - name: Vanessa Sochat  # 16 commits, issues: opened 8 participated in 4
    orcid: 0000-0002-4387-3819
    affiliation: 4
@@ -49,7 +49,7 @@ authors:
 #   affiliation:  # add full names if not yet listed, or indexes if already are
  - name: Christopher J. Markiewicz  # 5 commits, issues: opened 5 participated in 6
    orcid: 0000-0002-6533-164X
-   affiliation: Stanford University, Stanford, CA, United States
+   affiliation: 7
  - name: Laura Waite  # 2 commits, issues: opened 11 participated in 2
    orcid: 0000-0003-2213-7465
    affiliation: 2
@@ -92,7 +92,7 @@ authors:
 #   affiliation:  # add full names if not yet listed, or indexes if already are
 - name: Kusti Skytén  # 1 commits, issues: opened 4 participated in 1
 - orcid: 0000-0001-7460-1157
-  affiliation: University of Oslo
+  affiliation: 8
 # - name: Dorota Jarecka  # 0 commits, issues: opened 5 participated in 1
 #   orcid: 
 #   affiliation:  # add full names if not yet listed, or indexes if already are
@@ -139,6 +139,12 @@ affiliations:
    index: 4
  - name: McGill University, Faculty of Medicine and Health Sciences, McConnell Brain Imaging Centre, Montreal, Canada
    index: 5
+ - name: CHDI Management/CHDI Foundation, Princeton, NJ, United States
+   index: 6
+ - name: Stanford University, Stanford, CA, United States
+   index: 7
+ - name: University of Oslo, Oslo, Norway
+
 date: 24 March 2021
 bibliography: paper.bib
 
