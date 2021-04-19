@@ -167,7 +167,7 @@ Established and widely-adopted infrastructure and procedures, like software dist
 However, data have remained a “2nd-class citizen” in the contemporary scientific process, despite the increasing embracement of the FAIR principles [@FAIR2016].
 1) Disconnected data portals force a cacophony of data access and authentication methods upon the scientific community; 2) data versioning is rarely performed, or nowhere close to the precision and inspectability that is standard in software development; and 3) data provenance---if shared at all---is often not complete, because their capture is rarely considered to be an integral part of the scientific process.
 DataLad aims to solve all these issues by providing targeted interfaces and interoperability adapters to standard tools and services, scientific and commercial.
-It enables workflows that are particularly suited for reproducible science, such as actionable process provenance capture for arbitrary command execution that affords automatic re-execution.
+It enables workflows that are particularly suited for reproducible science, such as actionable process provenance capture for arbitrary command execution that enables automatic re-execution.
 In order to maximize its utility and target audience, DataLad is available for all major operating systems, and can be integrated into established workflows and environments with minimal adjustments.
 
 ## Why Git and git-annex?
