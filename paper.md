@@ -218,7 +218,7 @@ about is not clear to me.-->
 
 **Modularization is needed to scale.**
 Research workflows impose additional demands for an efficient research data management (RDM) platform besides "version control" and "data transport".
-Many research datasets contain millions of files, and that precludes placing such datasets in their entirety within a single Git repository even if individual files are tiny in their size.
+Many research datasets contain millions of files, and that precludes placing such datasets in their entirety within a single Git/git-annex repository even if individual files are tiny in their size.
 Such datasets should be partitioned into smaller subdatasets (e.g., a subdataset per each subject in the dataset comprising thousands of participants).
 This modularization allows for not only scalable management, <!-- unclear how management of 10k small pieces becomes more scalable than one piece with 10k parts; YOH: just by virtue of being able to handle 10k * 10k files --> but also for the efficient reuse of a selected subset of datasets.
 DataLad uses Git's submodule mechanism to unambiguously link (versions of) individual datasets into larger super-datasets, and further simplifies working with the resulting hierarchies of datasets with recursive operations across dataset boundaries.
