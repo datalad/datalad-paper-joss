@@ -242,6 +242,12 @@ Such annotation is not sufficient to introduce changes by following the descript
   E.g. that if author was very good with the description of change, some smart AI could have redone it following the description
   and not the patch.  The simplest analog could be "replaced word X with Y" where the patch would contain exact difference, but
   either will not be applicable or just would miss some Xs if applied to a vastly different version -->
+<!-- CM: the sentence "Such annotation ... by such a patch." is difficult to understand. Does it mean: we cannot recreate changes, if the information is not in the commit message or the patch? How about the paragraph:
+
+**Annotation of changes is not "re-executable".**
+Unlike changes to text documents or source code, which are typically done "manually", manipulation of scientific data is most often performed by software. To support reproduction of such software-induced changes, DataLad adds a mechanism for capturing and re-performing that command invocation that lead to a specific change. To achieve this, Datalad uses git commit messages. A Git commit message is a freeform text intended to provide a human-readable description of the changes introduced with a commit (the changes themselves are represented by Git in an internal format, e.g. as a patch, that defines the exact difference between two versions of a file). DataLad uses the commit message to store a human- and machine-readable record of the command invocation which introduced the changes.
+This allows for the data "change" to be re-executed to either verify that results reproduce, or to apply such a "change" to a completely different state.
+ -->
 Unlike changes to text documents or source code, which are typically done "manually", data manipulations are most often performed by software.
 DataLad exploits this fact and enables automated annotation of changes which result from running an external command.
 DataLad creates a commit message which does not only include a human-readable summary, but also a human- and machine-readable record of the command invocation which introduced the changes.
