@@ -255,8 +255,8 @@ This allows for the data "change" to be re-executed to either verify that result
 
 **Git and git-annex do not necessarily facilitate the best scientific workflow.**
 Git and git-annex, being generic tools, come with rich interfaces and allow for a wide range of workflows.
-DataLad strives to provide a higher level interface to more efficiently cover typical use cases encountered in the scientific practice than the direct invocation of individual Git and git-annex commands, and to encourage efficient computation and reproducible workflows.
-To this end, DataLad is also accompanied by rich documentation [@datalad-handbook:zenodo] to guide a scientist of any technological competency level, and agnostic of the field of science.
+DataLad strives to provide a higher level interface to more efficiently cover typical use cases encountered in the scientific practice. DataLad promotes the use of those commands instead of direct invocation of individual Git and git-annex commands, resulting in efficient computation and reproducible workflows.
+To this end, DataLad is accompanied by rich documentation [@datalad-handbook:zenodo] to guide a scientist of any technological competency level, and agnostic of the field of science.
 <!-- key point thinks MIH: to some degree the handbook also "just" shows how to use git/git-annex to implement concrete processes that are of relevance for science. In some what "figuring out how to do it with git/git-annex is a major contribution, some of it implemented in code (simplified/alternative API), but otherwise written up in English -->
 
 # Overview of the DataLad and its ecosystem
