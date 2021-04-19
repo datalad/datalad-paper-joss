@@ -226,7 +226,7 @@ DataLad uses Git's submodule mechanism to unambiguously link (versions of) indiv
 Most importantly, that's the notions of dependencies and a derivative
 relationsship that can be expressed that way, I think. -->
 <!-- YOH: well, there is "unambiguously link (versions of) " in above.  Could indeed be elaborated -->
-With this, DataLad makes it trivial to operate on individual files deep in the hierarchy or entire sub-trees of datasets, providing a "mono-repo"-like user experience in datasets nested arbitrarily deep.
+With this, DataLad makes it trivial to operate on individual files deep in the hierarchy or entire sub-trees of datasets, providing a "mono-repo"-like user experience in datasets which are nested arbitrarily deep.
 <!-- MIH: modularization is presented as #2, but it seems to be just #1 (nesting) described from a different angle -->
 <!-- YOH: not sure what #2 here, since in above it is "reproducible execution" in "MIH thinks:".
 
