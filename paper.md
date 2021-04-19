@@ -232,6 +232,7 @@ With this, DataLad makes it trivial to operate on individual files deep in the h
 
 As for #2 "reproducible execution" - I think we missed such subsection entirely, so I added it:
 --> 
+<!-- CM: Heading says: "Why Git and git-annex alone are not enough". This paragraph says "modulariyation is needed to scale" and  then describes how git-submodule supports modularizatoin (so, git is enough w.r.t. modulariztion!). Only then we describe what we add: i.e. a mono-repo-like experience, which is due to the recursive operations accross sub-modules. Should the title of the paragraph be something like: "Cross-module operations are required to scale"? Then a short sentence about "git supports nesting through the sub-module mechanism, we impleent recursive operation to use this mechanism to create a mono-repo experience. -->
 
 **Annotation of changes is not "re-executable".**
 A Git commit message is a freeform text intended to provide a human-readable description of introduced changes.
