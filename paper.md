@@ -194,8 +194,8 @@ With this simple approach, git-annex enables separate and optimized implementati
 Git can interact with other repositories on the file system or accessible via a set of standard (ssh, http) or custom (Git) network transport protocols.
 Interaction with non git-aware portals should then be implemented via custom Git transfer protocols, as, e.g., it was done in datalad-osf [@datalad-osf:zenodo].
 Git-annex provides access to a wide range of external data storage resources via various protocols but cannot implement all idiosyncrasies of any individual data portal.
-In particular, scientific data is frequently stored in compressed archives to reduce its storage demands, and/or on specialized servers, such as XNAT ([www.xnat.org](http://www.xnat.org)).
-To address these demands, git-annex established a protocol [@git-annex:special_remotes_protocol] through which external tools can provide custom transport functionality transparently to the git-annex user.
+In particular, scientific data is frequently stored in compressed archives to reduce its storage demands, and/or on specialized servers, such as XNAT ([www.xnat.org](http://www.xnat.org)). Efficient scientific data processing therefore usually requires seamless access to a wide variety of different stores of scientific data.
+To address this requirement, git-annex established a protocol [@git-annex:special_remotes_protocol] through which external tools can provide custom transport functionality transparently to the git-annex user.
 This allowed DataLad and many other projects to facilitate access to an ever-growing collection of resources [@git-annex:special_remotes] and to overcome technological limitations (e.g., maximal file sizes, or file system inode limits).
 
 **They require a layer above to establish a *distribution*.**
