@@ -305,7 +305,11 @@ with DataLad extensions ([datalad-extensions](https://github.com/datalad/datalad
 ## Contributions
 
 DataLad is released under [DFSG](https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines)- and [OSI](https://opensource.org/osd)-compliant MIT/Expat license, and license terms for reused components in the code-base are provided in the [COPYING](https://github.com/datalad/datalad/blob/master/COPYING) file.
-[CONTRIBUTING.md](https://github.com/datalad/datalad/blob/master/CONTRIBUTING.md) file shipped within DataLad's source repository provides guidelines for submitting contributions.
+With the permissive MIT license, the project encourages unconstrained use and re-use in any context, and aims to promote contributions rather than detached developments in forks.
+Under these terms, anyone is welcome to contribute in any form to the project.
+The [CONTRIBUTING.md](https://github.com/datalad/datalad/blob/master/CONTRIBUTING.md) file shipped within DataLad's source repository provides technical and procedural guidelines for submitting contributions.
+Contributors are acknowledged on the project website, and also credited in the form of co-authorship in the zenodo-based archival of software releases.
+All co-authors of this paper as well as the contributors acknowledged below have added to the project with code- or non-code-based contributions, and we thank past, present, and future contributors of this community for their involvement and work.
 
 [comment2]: <> (# Author Contributions: if desired/needed -- or drop altogether.)
 
